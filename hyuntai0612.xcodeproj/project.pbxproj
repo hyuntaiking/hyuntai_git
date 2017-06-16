@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E126EC1F1EEDD7FC00CEF042 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126EC1E1EEDD7FC00CEF042 /* main.swift */; };
+		E126EC261EEE225D00CEF042 /* myfunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126EC251EEE225D00CEF042 /* myfunction.swift */; };
+		E126EC281EEE286800CEF042 /* myGuessNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126EC271EEE286700CEF042 /* myGuessNum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		E126EC1B1EEDD7FC00CEF042 /* hyuntai0612 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hyuntai0612; sourceTree = BUILT_PRODUCTS_DIR; };
 		E126EC1E1EEDD7FC00CEF042 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E126EC251EEE225D00CEF042 /* myfunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myfunction.swift; sourceTree = "<group>"; };
+		E126EC271EEE286700CEF042 /* myGuessNum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myGuessNum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				E126EC1E1EEDD7FC00CEF042 /* main.swift */,
+				E126EC251EEE225D00CEF042 /* myfunction.swift */,
+				E126EC271EEE286700CEF042 /* myGuessNum.swift */,
 			);
 			path = hyuntai0612;
 			sourceTree = "<group>";
@@ -121,7 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E126EC281EEE286800CEF042 /* myGuessNum.swift in Sources */,
 				E126EC1F1EEDD7FC00CEF042 /* main.swift in Sources */,
+				E126EC261EEE225D00CEF042 /* myfunction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +263,7 @@
 				E126EC241EEDD7FC00CEF042 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
